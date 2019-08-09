@@ -1,0 +1,18 @@
+[{
+		"id": "restserver_cobrands_razor12_restserver_AccountScore_SDK_FV_stage-razor12-10521",
+		"apptype": "restserver",
+		"appid": "0A7F5D6C80705E55FFF40337B1707000",
+		"cobrandid": "10020964",
+		"perforce_cobrand_label": "cobrands.razor12.restserver_AccountScore_SDK_FV.stage.20190807_build_01",
+			"build": {
+				"name": "restserver_cobrands_razor12_restserver_AccountScore_SDK_FV_stage",
+				"version": "razor12",
+				"release": "10521"
+			},
+		"requires":["jre-1.6.0_17",
+				"jboss-5.1.0",
+				"ant-1.6.5"],
+		"jvm_arguments": "-Xms3072m -Xmx3072m",
+		"jvm_properites": "-Dcom.yodlee.appmode=INPROC"
+	}
+]
